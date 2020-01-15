@@ -1,4 +1,4 @@
-/***
+// /***
 
 //----------- creates a VALID symlink, butt the symlink when click-opened in github shows absolute path of the original file that this created symlink refers to
 
@@ -26,7 +26,7 @@ println "symlink created -----   " + symLink
 }
 
 // SNIPPET 1 : END
-***/
+// ***/
 
 
 /****
