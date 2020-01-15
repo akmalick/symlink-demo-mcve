@@ -19,4 +19,4 @@ This repo has has three branches : **master**, **valid_symlink** and **invalid_s
 
 The task **runScript** in turn executes the **myscript.groovy** and in the **master** branch the complete code of myscript.groovy is commented out as the script is just a starter file. You can either uncomment specific blocks and run the gradle task or simple checkout to **valid_symlink** or **invalid_symlink** branch and then try executing the task.
 
-**NOTE** Always delete the symlink before executing the script/running the build. I have plans to incorporate the delete logic, but only after the project becomes a bit stable.
+**NOTE** Always delete the symlink before executing the script **myscript.groovy** / running the **runScript** task. I have plans to incorporate the deletion logic, but only after the project becomes a bit stable.
