@@ -1,8 +1,8 @@
 # symLinkPOC
 a small project to experiment with how GitHub handles symlinks
 
-creates an **INVALID** symlink under the directory **symlinkTestFiles**, and the symlink when click-opened in github shows absolute path of the original file that the newly created symlink refers to
-Trying to open the symlink in your local git repo brings an error prompt :
+creates an **INVALID** symlink under the directory **symlinkTestFiles**, and the symlink when click-opened in github shows path of itself instead of the original file.
+Trying to open the symlink( in any editor )from the file explorer on your local system brings an error prompt :
 
 ---------------------------
 ERROR
