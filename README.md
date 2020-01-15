@@ -4,7 +4,7 @@ A small gradle project to experiment with how GitHub handles symlinks
 Although this is a gradle project and you can execute the task **runScript** inorder to see the symlink creation at work, you still have the option of running the **myscript.groovy** as plain groovy script and the symlink will be created for you.
 
 
-##IMPORTANT 
+## IMPORTANT 
 Currently, executing the gradle task **runScript** results in a **BUILD FAILURE**. So, please try running the **myscript.groovy** directly.
 
 
