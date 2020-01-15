@@ -29,7 +29,7 @@ println "symlink created -----   " + symLink
 ***/
 
 
-/****
+// /****
 
 //----------- creates a INVALID symlink, and the symlink when click-opened in github shows absolute path of the original file that this created symlink refers to
 
@@ -59,4 +59,4 @@ println "symlink created -----   " + symLink.toAbsolutePath()
 
 // SNIPPET 2 : END
 
-*****/
+// *****/
