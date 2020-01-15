@@ -9,8 +9,6 @@ A small gradle project to experiment with how GitHub handles symlinks
 Although this is a gradle project and you can execute the task **runScript** inorder to see the symlink creation at work, you still have the option of running the **myscript.groovy** as plain groovy script and the symlink will be created for you.
 
 
-
-
 This repo has has three branches : **master**, **valid_symlink** and **invalid_symlink**.
 
 **master** branch contains starter project files.
@@ -20,3 +18,5 @@ This repo has has three branches : **master**, **valid_symlink** and **invalid_s
 **invalid_symlink** branch contains invalid symlink and corresponding code that generates it. 
 
 The task **runScript** in turn executes the **myscript.groovy** and in the **master** branch the complete code of myscript.groovy is commented out as the script is just a starter file. You can either uncomment specific blocks and run the gradle task or simple checkout to **valid_symlink** or **invalid_symlink** branch and then try executing the task.
+
+**NOTE** Always delete the symlink before executing the script/running the build. I have plans to incorporate the delete logic, but only after the project becomes a bit stable.
